@@ -1,0 +1,246 @@
+[
+    {
+        "Id": "fbbe80395ad3a6b35bd06027c533604f74a08e9cd715ca01be9df14d6fcf2beb",
+        "Created": "2024-07-24T01:41:22.844566864Z",
+        "Path": "/bin/sh",
+        "Args": [
+            "-c",
+            "sleep 10d",
+            "npm",
+            "run",
+            "start-auth"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 60466,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-07-24T01:41:23.383265687Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:257346756176c866fe91e78459acdbbaf85f29e2e5ab0750d0c4c079eb3a152e",
+        "ResolvConfPath": "/var/snap/docker/common/var-lib-docker/containers/fbbe80395ad3a6b35bd06027c533604f74a08e9cd715ca01be9df14d6fcf2beb/resolv.conf",
+        "HostnamePath": "/var/snap/docker/common/var-lib-docker/containers/fbbe80395ad3a6b35bd06027c533604f74a08e9cd715ca01be9df14d6fcf2beb/hostname",
+        "HostsPath": "/var/snap/docker/common/var-lib-docker/containers/fbbe80395ad3a6b35bd06027c533604f74a08e9cd715ca01be9df14d6fcf2beb/hosts",
+        "LogPath": "/var/snap/docker/common/var-lib-docker/containers/fbbe80395ad3a6b35bd06027c533604f74a08e9cd715ca01be9df14d6fcf2beb/fbbe80395ad3a6b35bd06027c533604f74a08e9cd715ca01be9df14d6fcf2beb-json.log",
+        "Name": "/allbooks-backend",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "exercicio11-allbooks-backend_default",
+            "PortBindings": {
+                "8000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "6000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/snap/docker/common/var-lib-docker/overlay2/6809c4203b1f5e64e4a4c2b46b659f995a4e127a96eee8a79438ce99bccdc9bc-init/diff:/var/snap/docker/common/var-lib-docker/overlay2/292rpp4k7uyb2e82ckude0plu/diff:/var/snap/docker/common/var-lib-docker/overlay2/9usp8rxd3itotxvfb01xkjyap/diff:/var/snap/docker/common/var-lib-docker/overlay2/lq1dhhh1u07llsdwgpi55a6fu/diff:/var/snap/docker/common/var-lib-docker/overlay2/4025pmn4td20xlejj9gzlsum8/diff:/var/snap/docker/common/var-lib-docker/overlay2/c2pt0a7riq40sqwocwfonhyr4/diff:/var/snap/docker/common/var-lib-docker/overlay2/y3xx86jtbjophe7l2dqs0zwkh/diff:/var/snap/docker/common/var-lib-docker/overlay2/mi4of8uo0rwtykxoazttdr0qe/diff:/var/snap/docker/common/var-lib-docker/overlay2/tebn1t8dp7jiz4ns2wdw2agbv/diff:/var/snap/docker/common/var-lib-docker/overlay2/wzjs2e4yf3mpmwmski0bl69lk/diff:/var/snap/docker/common/var-lib-docker/overlay2/1yq3eo0580wx0t1cyc8nc5ddp/diff:/var/snap/docker/common/var-lib-docker/overlay2/5e36nqwbkp7coz5lz5icrac1n/diff:/var/snap/docker/common/var-lib-docker/overlay2/2vpwylbpxs79v6v1c0h4ryn51/diff:/var/snap/docker/common/var-lib-docker/overlay2/t09o2vs260u9i5q39n0lfdd31/diff:/var/snap/docker/common/var-lib-docker/overlay2/717jg88aj8x5c3p1hoe8nvku0/diff:/var/snap/docker/common/var-lib-docker/overlay2/4ec27fb4967186cbe8bff315c2a7e05128256b0b92b3291684854513143ab103/diff",
+                "MergedDir": "/var/snap/docker/common/var-lib-docker/overlay2/6809c4203b1f5e64e4a4c2b46b659f995a4e127a96eee8a79438ce99bccdc9bc/merged",
+                "UpperDir": "/var/snap/docker/common/var-lib-docker/overlay2/6809c4203b1f5e64e4a4c2b46b659f995a4e127a96eee8a79438ce99bccdc9bc/diff",
+                "WorkDir": "/var/snap/docker/common/var-lib-docker/overlay2/6809c4203b1f5e64e4a4c2b46b659f995a4e127a96eee8a79438ce99bccdc9bc/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "fbbe80395ad3",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "6000/tcp": {},
+                "8000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "npm",
+                "run",
+                "start-auth"
+            ],
+            "Image": "brunojose1977/exercicio11-allbooks-docker-compose-backend:1.2.0",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "/bin/sh",
+                "-c",
+                "sleep 10d"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "4e502b1ef641466dd8c2ccf720524f3b81e543100c7b3daeb97372132251b5d7",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:257346756176c866fe91e78459acdbbaf85f29e2e5ab0750d0c4c079eb3a152e",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "exercicio11-allbooks-backend",
+                "com.docker.compose.project.config_files": "/home/brunojose/devops/curso4-docker/exercicio11-allbooks-backend/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/brunojose/devops/curso4-docker/exercicio11-allbooks-backend",
+                "com.docker.compose.service": "server",
+                "com.docker.compose.version": "2.28.1",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "eb194b4127c1e7719718b95e679ae50c288a71941d78712c3629e885ef869e99",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "6000/tcp": null,
+                "8000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "6000"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "6000"
+                    }
+                ]
+            },
+            "SandboxKey": "/run/snap.docker/netns/eb194b4127c1",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "exercicio11-allbooks-backend_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "allbooks-backend",
+                        "server",
+                        "fbbe80395ad3"
+                    ],
+                    "NetworkID": "6bca41137665a090cc75f8fbe7ddd08a46ebe9e76823ad79c82a9ae88ff34c82",
+                    "EndpointID": "08cccb3e2633a23def923fdad88096a3078fe521fe68e38b2efa9d891ba383b4",
+                    "Gateway": "172.25.0.1",
+                    "IPAddress": "172.25.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:19:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

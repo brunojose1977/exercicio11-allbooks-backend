@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  server:
+    build: .
+    container_name: allbooks-backend
+    image: brunojose1977/exercicio11-allbooks-docker-compose-backend:1.2.0
+    ports:
+      - 6000:8000  #API Node.js
